@@ -16,6 +16,8 @@ function logar() {
     } else {
         alert('Usuario e senha Não encontrados')
     }
+    document.getElementById('senha1').value = "";
+    document.getElementById('senha2').value = "";
 }
 
 function cadastrar() {
